@@ -27,9 +27,7 @@ Developer site for Junning Zeng's iPhone games: support page, privacy policy and
 | App Store Connect → version → Marketing URL (optional), and the developer website AdMob reads | `https://rabbiesamurai.github.io/` |
 | AdMob → Apps → (each app) → app-ads.txt | AdMob looks for `https://rabbiesamurai.github.io/app-ads.txt`, based on the developer website in the App Store listing. Verification happens after the app is live and linked to its App Store listing in AdMob. |
 
-`app-ads.txt` authorizes these Google AdMob publishers:
-- `pub-2434042691497162`: Rocket Flip’s restored app, native and standard banner placements, plus the original games.
-- `pub-7510407707948062`: retained because Rocket Flip’s rewarded unit is still configured on this publisher. Remove this line only after all apps/placements using that account have moved.
+`app-ads.txt` authorizes Google AdMob publisher `pub-2434042691497162` for Rocket Flip’s restored native, standard banner and rewarded placements, plus the original games. The temporary publisher entry has been removed.
 
 Rocket Flip production configuration:
 
@@ -38,7 +36,7 @@ Rocket Flip production configuration:
 | App | `ca-app-pub-2434042691497162~9685495237` |
 | Native card (current HUD) | `ca-app-pub-2434042691497162/1049719099` |
 | Standard banner (reserved, separate format) | `ca-app-pub-2434042691497162/7800558769` |
-| Rewarded revival (unchanged) | `ca-app-pub-7510407707948062/9368715328` |
+| Rewarded revival | `ca-app-pub-2434042691497162/4371771023` |
 
 The native card keeps its existing design; the standard banner ID must not be used in a native-ad request. Ad unit IDs belong in app configuration, not as extra lines in `app-ads.txt`.
 
