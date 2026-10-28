@@ -44,6 +44,6 @@ On 2026-10-26, commit `ad8e810` was pushed to both `master` and the publishing b
 
 ## Keep the pages true
 
-The privacy policy describes the games as of 2026-10-26. Check each game's section: Jet Drift has optional Game Center rankings and Apple cloud saves, while other games may differ. Jet Drift has no separate developer account or backend; local progress remains available when Apple services are unavailable. Google advertising SDK data collection is disclosed, and the existing HOSHI Arcade ATT policy is retained. Do not describe every game as local-only or make a blanket claim that no analytics or personal data is collected.
+The privacy policy describes the games as of 2026-10-28. Check each game's section: Jet Drift has optional Game Center rankings and Apple cloud saves. HOSHI Claw Machine 1.0 has optional Game Center achievements and leaderboards, local-only collection/coins, locally generated share cards and non-personalized ads without an ATT prompt. Neither game has a separate developer account or gameplay backend. Google advertising SDK data collection is disclosed. Do not describe every game as local-only or claim that no analytics or personal data is collected.
 
 If a game adds analytics, accounts, Game Center leaderboards, cloud saves, personalized ads/ATT or anything that sends data elsewhere, update `privacy.html` (and the App Privacy answers in App Store Connect) before that version ships. This is not legal advice.
